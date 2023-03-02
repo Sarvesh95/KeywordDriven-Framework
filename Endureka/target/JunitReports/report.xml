@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="26.46" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="to Test the navigation between the Pages" name="to check whether each of the link is navigated to the correct page and there is no crash." time="26.153">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user is on the home page................................................passed
+When User clicks on the Customers link......................................passed
+Then verify that user is navigated to the customers Page....................passed
+When User clicks on the Pricing link........................................passed
+Then verify that user is navigated to the Pricing page......................passed
+When User clicks on the Resources link......................................passed
+Then verify that user is navigated to the Resources page....................passed
+When User clicks on the Partners link.......................................passed
+Then verify that user is navigated to the Partners page.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
